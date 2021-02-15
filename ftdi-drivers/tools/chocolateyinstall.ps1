@@ -1,7 +1,7 @@
 ﻿$packageArgs = @{
   packageName            = "$env:chocolateyPackageName"
-  url                    = 'http://www.ftdichip.com/Drivers/CDM/CDM21228_Setup.zip'
-  checksum               = 'b887670f18348f94426957f217051e30416ca3126f1333bfb5c120a8bae21db8'
+  url                    = 'https://www.ftdichip.com/Drivers/CDM/CDM21228_Setup.zip'
+  checksum               = '764A3C033FE4F29488A80EA92E7A0D284B8FC8ECE77BEF0F17D203BF8A6FEDFD'
   checksumType           = 'sha256'
   UnzipLocation          = "$env:TMP"
 }
